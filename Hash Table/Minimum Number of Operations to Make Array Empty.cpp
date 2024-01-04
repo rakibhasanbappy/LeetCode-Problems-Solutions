@@ -83,3 +83,9 @@ public:
         return ans;
     }
 };
+
+
+// Another beautiful intuition by Adnan Sabbir vai
+/*
+https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/solutions/4505578/easy-solution-o-n-explained-python-typescript-javascript/
+*/
