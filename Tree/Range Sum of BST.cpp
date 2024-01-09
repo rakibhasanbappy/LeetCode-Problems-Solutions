@@ -26,10 +26,7 @@ public:
             sum += currentNode->val;
         }
 
-        if(currentNode->left==NULL) return;
-        else{
-            helper(currentNode->left, low, high);
-        }
+        helper(currentNode->left, low, high);
 
         helper(currentNode->right, low, high);
     }
